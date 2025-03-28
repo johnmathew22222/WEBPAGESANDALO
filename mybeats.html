@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Beats</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        section h3 {
+            margin-top: 20px;
+        }
+        .song {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        .song img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .song-info {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Beats</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="skills.html">Skills & Hobbies</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="gallery.html">Photo Gallery</a></li>
+            <li><a href="myfilms.html">My Films</a></li>
+            <li><a href="tvshows.html">TV Shows</a></li>
+            <li><a href="dreamplaces.html">Dream Places</a></li>
+            <li><a href="bucketlist.html">Bucket List</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Favorite Music Categories</h2>
+        
+        <h3>Jazz</h3>
+        <div class="song">
+            <img src="jazz1.jpg" alt="Feeling Good - Michael Bublé">
+            <div class="song-info">
+                <p><strong>Feeling Good</strong> - Michael Bublé</p>
+                <audio controls>
+                    <source src="jazz1.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="song">
+            <img src="jazz2.jpg" alt="Fly Me to the Moon - Frank Sinatra">
+            <div class="song-info">
+                <p><strong>Fly Me to the Moon</strong> - Frank Sinatra</p>
+                <audio controls>
+                    <source src="jazz2.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+        
+        <h3>Rock</h3>
+        <div class="song">
+            <img src="rock1.jpg" alt="Rockstar - Post Malone ft. 21 Savage">
+            <div class="song-info">
+                <p><strong>Rockstar</strong> - Post Malone ft. 21 Savage</p>
+                <audio controls>
+                    <source src="rock1.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="song">
+            <img src="rock2.jpg" alt="Upside Down - 6cyclemind">
+            <div class="song-info">
+                <p><strong>Upside Down</strong> - 6cyclemind</p>
+                <audio controls>
+                    <source src="rock2.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+        
+        <h3>Pop</h3>
+        <div class="song">
+            <img src="pop1.jpg" alt="Iris - Goo Goo Dolls">
+            <div class="song-info">
+                <p><strong>Iris</strong> - Goo Goo Dolls</p>
+                <audio controls>
+                    <source src="pop1.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+        <div class="song">
+            <img src="pop2.jpg" alt="Die with a Smile - Bruno Mars">
+            <div class="song-info">
+                <p><strong>Die with a Smile</strong> - Bruno Mars</p>
+                <audio controls>
+                    <source src="pop2.mp3" type="audio/mp3">
+                </audio>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

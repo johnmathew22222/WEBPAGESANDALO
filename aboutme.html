@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - John Mathew Sandalo</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+        <nav>
+            <a href="index.html">Home</a> | 
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>Introduction</h2>
+        <p>Hi! My name is <strong>John Mathew Sandalo</strong>. I am 20 years old and currently residing in Cubao, Quezon City. I am a 2nd-year BSIT student at the University of the East. Passionate about technology and sports, I strive to balance my academic and athletic aspirations.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>I graduated senior high school from <strong>San Beda University</strong>. Currently, I am pursuing my Bachelor of Science in Information Technology at the <strong>University of the East</strong>. My goal is to specialize in cybersecurity to contribute to the safety of digital platforms.</p>
+    </section>
+    
+    <section id="goals">
+        <h2>My Goals</h2>
+        <ul>
+            <li>Become a professional basketball player and compete at the highest level.</li>
+            <li>Pursue a career in cybersecurity to help protect people from cyber threats.</li>
+            <li>Continue learning about technology and improve my programming skills.</li>
+            <li>Travel the world and experience different cultures.</li>
+        </ul>
+    </section>
+
+    <section id="interests">
+        <h2>Interests & Hobbies</h2>
+        <ul>
+            <li><strong>Basketball:</strong> I love playing basketball and training to improve my game.</li>
+            <li><strong>Cybersecurity:</strong> I am fascinated by ethical hacking and digital security.</li>
+            <li><strong>Gaming:</strong> I enjoy playing competitive online games in my free time.</li>
+            <li><strong>Music & Movies:</strong> I like listening to music and watching films that inspire me.</li>
+            <li><strong>Travel:</strong> Exploring new places and experiencing different cultures excites me.</li>
+        </ul>
+    </section>
+
+    <section id="clickable-images">
+        <h2>Explore More</h2>
+        <div class="image-container">
+            <img src="aboutme.jpg" alt="Photo 1" title="Friends" onclick="openImage(this.src)">
+   
+            <img src="playingcomputer.jpg" alt="Photo 1" title="Friends" onclick="openImage(this.src)">
+           
+            <img src="basketball.jpg" alt="Photo 1" title="Friends" onclick="openImage(this.src)">
+
+        </div>
+    </section>
+
+    <p><a href="#top">Go to Top</a></p>
+
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .image-container img {
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+
+</body>
+</html>
